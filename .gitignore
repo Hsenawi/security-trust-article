@@ -1,0 +1,40 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+main.pdf
+research_notes/
+reports/
+
+# publisher PDFs downloaded with institutional access: keep out of the repository
+articles/
+
+# generated build outputs
+*.spl
+/main_my_style.pdf
+/supplementary_my_style.pdf
+/cover_letter.pdf
+submission/
+submission_short/
+
+# manuscript kept local only (removed from the repository 2026-11-13, before licensing the code under MIT)
+*.tex
+*.bib
+*.pdf
+figures/*.png
+sections/
+sections_short/
+sections_my_style/
+tables_my_style/
+
+# internal notes kept local only (2026-11-13, before the repository was made public)
+reviews/
+provenance/
+references_download_list.md
+make_submission.sh
+README_private.md
